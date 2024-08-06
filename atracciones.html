@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atracciones - Lugar Turístico</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Turismo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="atracciones.html">Atracciones <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="alojamiento.html">Alojamiento</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mt-5">
+        <h1>Principales Atracciones Turísticas</h1>
+        <p>Descubre las maravillas que nuestro destino tiene para ofrecer.</p>
+
+        <!-- Card Deck -->
+        <div class="card-deck gallery">
+            <div class="card">
+                <img src="izabal.jpg" class="card-img-top" alt="Izabal">
+                <div class="card-body">
+                    <h5 class="card-title">Izabal</h5>
+                    <p class="card-text">Izabal es uno de los veintidós departamentos que conforman Guatemala, está situado en la región nor-oriental de Guatemala  </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="amatitlan.jpg" class="card-img-top" alt="Amatitlán">
+                <div class="card-body">
+                    <h5 class="card-title">Amatitlán</h5>
+                    <p class="card-text">La ciudad de Amatitlán actualmente se ubica dentro de las 20 ciudades más importantes de Guatemala, forma parte de la Mancomunidad Gran Ciudad del Sur y se localiza a 27 kilómetros al sur de la Ciudad de Guatemala y a 12 kilómetros de Villa Nueva con una altitud de aproximadamente 1188 metros sobre el nivel del mar.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="antigua.jpg" class="card-img-top" alt="Antigua Guatemala">
+                <div class="card-body">
+                    <h5 class="card-title">Antigua Guatemala</h5>
+                    <p class="card-text">Antigua Guatemala o simplemente Antigua, es una ciudad en el altiplano central de Guatemala. Entre 1543 y 1776 fue la capital colonial española de América Central y es famosa por su arquitectura barroca colonial en buen estado de conservación, .</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Tikal.jpg" class="card-img-top" alt="Tikal">
+                <div class="card-body">
+                    <h5 class="card-title">Tikal</h5>
+                    <p class="card-text">Situado en el corazón de una selva de vegetación lujuriante, Tikal es uno de los sitios más importantes de la civilización maya. Fue habitado desde el siglo VI a.C. hasta el siglo X d.C. Su centro ceremonial comprende templos y palacios soberbios, así como plazas públicas a las que se accedía por rampas.<</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Map -->
+        <h2 class="mt-5">Mapa Interactivo</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0224997233!2d-122.41941548468107!3d37.77492927975988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581528dc0a7a7%3A0x813e48d0aeea9e57!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1632423028390!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <!-- Additional Information -->
+        <div class="mt-5">
+            <h2>Información Adicional</h2>
+            <p>Izabal,Limita al norte con el departamento de Petén, con Belice y el mar Caribe; al sur con el departamento de Zacapa; al este con Honduras; y al oeste con el departamento de Alta Verapaz.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por Gean Carlos</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
