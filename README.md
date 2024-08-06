@@ -4,3 +4,5 @@ Este proyecto esta diseñado con HTML,CSS,Boostrap, al igual que le agregamos un
 Link de etlify: https://hoja3turisticodw.netlify.app/
 <br>
 Creado por: Gean Carlos Rosales
+Carne: 9490-21-2228
+Seccion: "A"
